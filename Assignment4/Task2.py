@@ -6,7 +6,7 @@ with open(f"{name}.txt" , mode="a+") as my_file:
   my_file.write(content)
   print(f"Data sussess fully enter the file : {name}.txt")
   additional_text = input("Enter additional text to append : ")
-  my_file.write(f"\n {additional_text}")
+  my_file.write(f"\n{additional_text}")
   print("Data succesfully appended.")
 
   print(f"Final content of {name}.txt")
